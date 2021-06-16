@@ -100,8 +100,8 @@ Model dan Controller dari framework yang digunakan sudah menggunakan standar kel
   
   
   #### 6. Fungsi Utama yang Dikembangkan 
-  
-  
+Fungsi utama:
+Tracking people -> fungsi ini bertujuan jika telah dimulainya perkuliahan tatap muka di IPB University dimana mahasiswa IPB university dapat melcak keberadaan orang disekitarnya melalui web dengan begitu Mahasiswa dapat menghindari kerumunan dikarenakan Penyebaran Covid-19 yang masih ada, sehingga mengharuskan orang orang untuk menjaga jarak, Dengan begitu akan terlecak kerumunan yang dengan sensor warna merah jika kerumunan lebih dari 10 orang kuning 3-10 orang dan biru 1-2 orang dan mahasiswa dapat mencari jalan lain jika disuatu jalan terdapat kerumunan.  
 
   #### 7. Fungsi CRUD
   
