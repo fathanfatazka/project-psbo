@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blue-top {
+    position: absolute;
+    /* min-width: 576px; */
+    width: 100%;
+    height: 20%;
+    background-color: #4682B4;
+}
+
+.login-container {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background: #F2F0F0;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .login-container {
+        width: 992px;
+    }
+}
+
+.text-title {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+
+.text-title img,
+.signup-text-title img{
+    width: 80px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.text-title p,
+.signup-text-title p {
+    /* position: absolute; */
+    font-size: 2.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width: 576px) {
+    .login-container {
+        border-radius: 5px;
+    }
+}
+
+.login-sec-2 {
+    position: inherit;
+    background: #FFFAFA;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 7px;
+}
+
+
+.login-sec-2 .login-top,
+.signup-sec-2 .login-top {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background: #4682B4;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-sec-2 .login-top p,
+.signup-sec-2 .login-top p {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.login-bottom {
+    position: relative;
+    top: 15%;
+    /* background-color: khaki; */
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.login-bottom label {
+    position: absolute;
+    left: 19%;
+    font-size: 1.2em;
+}
+
+.login-bottom #id-name {
+    position: relative;
+    width: 63%;
+    height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 15px 0px 5px;
+} 
+
+
+.login-bottom #pass-login {
+    position: relative;
+    width: 63%;
+    height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 15px 0px 5px;
+}
+
+.login-bottom button {
+    position: relative;
+    width: 20%;
+    height: 30px;
+    left: 21%;
+    margin-top: 3%;
+    
+    font-size: 1em;
+    background: #00BFFF;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.login-bottom button:hover {
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.30);;
+} 
+
+@media screen and (max-width: 666px){
+    .login-sec-2 {
+        top: 30%;
+        bottom: 5%;
+        border-radius: 5px;
+    }
+    .text-title p {
+        font-size: 1.5em;
+        display: block;
+    }
+    .login-sec-2 .login-top p {
+        font-size: 1.4em;
+    }
+    .login-bottom label {
+        font-size: 1em;
+    }
+    .login-bottom button {
+        font-size: 0.6em;
+        height: 18px;
+    }
+}
+
+/* 
+################################################################################
+Welcome Page CSS Code
+################################################################################
+*/
+
+/* 
+###########################################################################################
+Sign Up Page Style
+###########################################################################################
+*/
+
+
+.signup-sec-2 .login-bottom button {
+    margin: 2%;
+}
+
+.signup-container {
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    background: #F2F0F0;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;    
+} */
+
+.signup-sec-2 .login-bottom #user-name,
+.signup-sec-2 .login-bottom #dept-name,
+.signup-sec-2 .login-bottom #pass-signup,
+.signup-sec-2 .login-bottom #conf-signup {
+    position: absolute;
+    width: 63%;
+    max-height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 5px 0px 5px;
+}
+
+@media screen and (min-width: 992px) {
+    .signup-container {
+        width: 992px;
+    }
+}
+
+.signup-text-title {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2%;
+    font-size: 1em;
+} 
+
+.signup-sec-2 {
+    position: inherit;
+    background: #FFFAFA;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 666px){   
+    .signup-text-title {
+        font-size: 0.8em;
+    }
+    .signup-sec-2 {
+        top: 20%;
+        height: 75%;
+    }
+    .signup-sec-2 .login-top p,
+    .signup-sec-2 .login-bottom {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .signup-text-title {
+        font-size: 0.65em;
+    }
+}
+
+/* 
+################################################################################################
+Dashboard Page CSS Code
+################################################################################################
+*/
+
+.top-nav {
+    position: fixed;
+    /* min-width: 576px; */
+    width: 100%;
+    height: 10%;
+    background-color: #F2F0F0;
+}
+
+.top-nav a {
+    position: absolute;
+    margin: auto;
+    left: 92%;
+    height: 75px;
+    color: blue;
+    line-height: 75px;
+
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.sidebar-sec {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: #4682B4;
+    text-align: center;
+}
+
+.top-logo-title {
+    position: relative;
+    top: 2%;
+}
+
+.top-logo-title img,
+.top-logo-title .title-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.top-logo-title img {
+    width: 50px;
+}
+
+.top-logo-title .title-title {
+    text-align: left;
+    color: white;
+    font-size: 0.95em;
+    margin-left: 5px;
+}
+
+.top-logo-title p {
+    display: block;
+}
+
+.pic-name-dept {
+    position: relative;
+    top: 10%;
+    font-size: 1.2em;
+    color: white;
+}
+
+.pic-name-dept img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.link-to-page {
+    position: relative;
+    top: 20%;
+}
+
+.link-to-page a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 30px;
+    transition-duration: 00.2s;
+}
+
+.link-to-page a:hover {
+    font-size: 1.7em;
+}
+
+@media screen and (max-width: 1224px) {
+    .top-logo-title {
+        top: 1%;
+    }
+    .top-logo-title .title-title {
+        text-align: left;
+        /* text-align: center; */
+        color: white;
+        font-size: 0.6em;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .top-logo-title img {
+        width: 40px;
+    }
+}
+
+@media  screen and (max-width: 849px) {
+    .top-logo-title .title-title {
+        text-align: center;
+        /* text-align: center; */
+        color: white;
+        font-size: 0.6em;
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+    .link-to-page a {
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 30px;
+        transition-duration: 00.2s;
+    }
+    
+    .link-to-page a:hover {
+        font-size: 1.2em;
+    }
+
+    .pic-name-dept {
+        position: relative;
+        top: 10%;
+        font-size: 0.8em;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .pic-name-dept img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .pic-name-dept {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pic-name-dept {
+        font-size: 0.4em;
+    }
+    .pic-name-dept img {
+        width: 25px;
+    }
+    .link-to-page a {
+        font-size: 0.5em;
+    }
+}
+
+/* 
+######################################################################################################
+Form Page CSS Code
+######################################################################################################
+*/
+
+.main-content {
+    position: absolute;
+    margin: auto;
+    top: 10%; bottom: 0; right: 0; left: 15%;
+    /* background-color: tomato; */
+}
+
+.main-cont-container {
+    position: absolute;
+    width: 60%;
+    height: 82%;
+    background-color: #F2F0F0;
+    border-radius: 8px;
+    padding: 1% 2%;
+
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.main-cont-container p {
+    color: #4682B4;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.main-cont-container .form-data {
+    margin: 3% 0%;
+}
+
+#user-name,
+#dept-name,
+#nim,
+#no-telp,
+#upload-foto {
+    position: relative;
+    width: 70%;
+    height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 5px 0px 5px;
+} 
+
+.form-data label {
+    position: absolute;
+    color: #4682B4;
+    font-weight: bold;
+
+    left: 17.5%;
+}
+
+.form-data a {
+    position: relative;
+    /* text-decoration: none; */
+    
+    top: 12px;
+    left: 28%
+}
+
+@media screen and (max-width: 849px) {
+    .main-cont-container {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main-cont-container {
+        font-size: 0.5em;
+    }
+}
+
+.form-data .save {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    left: 30%;
+}
+
+

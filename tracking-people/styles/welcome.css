@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blue-top {
+    position: absolute;
+    /* min-width: 576px; */
+    width: 100%;
+    height: 20%;
+    background-color: #4682B4;
+}
+
+.login-container {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background: #F2F0F0;
+    border-radius: 7px;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .login-container {
+        width: 992px;
+    }
+}
+
+.text-title {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+
+.text-title img,
+.signup-text-title img{
+    width: 80px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.text-title p,
+.signup-text-title p {
+    /* position: absolute; */
+    font-size: 2.5em;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width: 576px) {
+    .login-container {
+        border-radius: 5px;
+    }
+}
+
+.login-sec-2 {
+    position: inherit;
+    background: #FFFAFA;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 7px;
+}
+
+
+.login-sec-2 .login-top,
+.signup-sec-2 .login-top {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background: #4682B4;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-sec-2 .login-top p,
+.signup-sec-2 .login-top p {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.login-bottom {
+    position: relative;
+    top: 15%;
+    /* background-color: khaki; */
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.login-bottom label {
+    position: absolute;
+    left: 19%;
+    font-size: 1.2em;
+}
+
+.login-bottom #id-name {
+    position: relative;
+    width: 63%;
+    height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 15px 0px 5px;
+} 
+
+
+.login-bottom #pass-login {
+    position: relative;
+    width: 63%;
+    height: 45%;
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 15px 0px 5px;
+}
+
+.login-bottom button {
+    position: relative;
+    width: 20%;
+    height: 30px;
+    left: 21%;
+    margin-top: 3%;
+    
+    font-size: 1em;
+    background: #00BFFF;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.login-bottom button:hover {
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.30);;
+} 
+
+@media screen and (max-width: 666px){
+    .login-sec-2 {
+        top: 30%;
+        bottom: 5%;
+        border-radius: 5px;
+    }
+    .text-title p {
+        font-size: 1.5em;
+        display: block;
+    }
+    .login-sec-2 .login-top p {
+        font-size: 1.4em;
+    }
+    .login-bottom label {
+        font-size: 1em;
+    }
+    .login-bottom button {
+        font-size: 0.6em;
+        height: 18px;
+    }
+}
+
+
+.greet-container {
+    position: absolute;
+    background: #C4C4C4;
+    width: 80%;
+    height: 55%;
+    margin: auto;
+    top: 10%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-greet {
+    flex-grow: 1;
+    /* background: #00BFFF */
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.bottom-greet {
+    flex-grow: 1;
+    border-radius: 0px 0px 8px 8px;
+    background: #4682B4;
+    position: relative;
+    padding: 10px;
+}
+
+.greet-container .top-greet p {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 15%;
+    height: 50px;
+    line-height: 50px;
+    
+    font-size: 2.5em;
+}
+
+.greet-container .bottom-greet p {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 15%;
+    height: 50px;
+    line-height: 50px;
+    
+    font-size: 2.5em;
+}
+
+.greet-container button {
+    position: absolute;
+    width: 25%;
+    height: 12%;
+    /* left: 556px; */
+    top: 105%;
+    overflow: auto;
+    left: 0;
+    right: 0;
+    /* margin-top: 3%; */
+    margin: auto;
+    padding-top: 2.5px ;
+
+    font-size: 1.2em;
+    background: #00BFFF;
+    border-radius: 50px;
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.greet-container button:hover {
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.30);;
+}
+
+@media screen and (max-width: 666px){
+    .greet-container {
+        height: 50%;
+    }
+    .greet-container .top-greet p {
+        font-size: 1.5em;
+    }
+    .greet-container .bottom-greet p {
+        font-size: 1.5em;
+    }
+    .greet-container button {
+        font-size: .6em;
+    }
+}

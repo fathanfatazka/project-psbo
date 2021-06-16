@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-nav {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    background-color: #F2F0F0;
+}
+
+.top-nav a {
+    position: absolute;
+    margin: auto;
+    left: 92%;
+    height: 75px;
+    color: blue;
+    line-height: 75px;
+
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.sidebar-sec {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: #4682B4;
+    text-align: center;
+}
+
+.top-logo-title {
+    position: relative;
+    top: 2%;
+}
+
+.top-logo-title img,
+.top-logo-title .title-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.top-logo-title img {
+    width: 50px;
+}
+
+.top-logo-title .title-title {
+    text-align: left;
+    color: white;
+    font-size: 0.95em;
+    margin-left: 5px;
+}
+
+.top-logo-title p {
+    display: block;
+}
+
+.pic-name-dept {
+    position: relative;
+    top: 10%;
+    font-size: 1.2em;
+    color: white;
+}
+
+.pic-name-dept img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.link-to-page {
+    position: relative;
+    top: 20%;
+}
+
+.link-to-page a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 30px;
+    transition-duration: 00.2s;
+}
+
+.link-to-page a:hover {
+    font-size: 1.7em;
+}
+
+@media screen and (max-width: 1224px) {
+    .top-logo-title {
+        top: 1%;
+    }
+    .top-logo-title .title-title {
+        text-align: left;
+        /* text-align: center; */
+        color: white;
+        font-size: 0.6em;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    .top-logo-title img {
+        width: 40px;
+    }
+}
+
+@media  screen and (max-width: 849px) {
+    .top-logo-title .title-title {
+        text-align: center;
+        /* text-align: center; */
+        color: white;
+        font-size: 0.6em;
+        margin-left: 5px;
+        display: inline-block;
+    }
+
+    .link-to-page a {
+        color: white;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 30px;
+        transition-duration: 00.2s;
+    }
+    
+    .link-to-page a:hover {
+        font-size: 1.2em;
+    }
+
+    .pic-name-dept {
+        position: relative;
+        top: 10%;
+        font-size: 0.8em;
+        color: white;
+    }
+}
+
+
+.main-content {
+    position: absolute;
+    margin: auto;
+    top: 10%; bottom: 0; right: 0; left: 15%;
+    /* background-color: tomato; */
+}
+
+.main-cont-container {
+    position: absolute;
+    width: 60%;
+    height: 82%;
+    background-color: #F2F0F0;
+    border-radius: 8px;
+    padding: 1% 2%;
+
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.main-cont-container p {
+    color: #4682B4;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.main-cont-container .form-data {
+    margin: 3% 0%;
+}
+
+#user-name,
+#dept-name,
+#nim,
+#no-telp,
+#upload-foto {
+    position: relative;
+    width: 70%;
+    /* height: 45%; */
+
+    padding: 10px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin: 5px 0px 5px;
+} 
+
+.form-data label {
+    position: absolute;
+    color: #4682B4;
+    font-weight: bold;
+
+    left: 17.5%;
+}
+
+@media screen and (max-width: 849px) {
+    .main-cont-container {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main-cont-container {
+        font-size: 0.5em;
+    }
+}
+
+.form-data .save {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    left: 30%;
+}
+
+@media screen and (max-width: 667px) {
+    .pic-name-dept img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .pic-name-dept {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .pic-name-dept {
+        font-size: 0.4em;
+    }
+    .pic-name-dept img {
+        width: 25px;
+    }
+    .link-to-page a {
+        font-size: 0.5em;
+    }
+}
