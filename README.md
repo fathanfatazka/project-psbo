@@ -89,7 +89,7 @@ Model dan Controller dari framework yang digunakan sudah menggunakan standar kel
  
   #### 3. Class Diagram 
   
-   
+  <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/Class%20Diagram.png">
   
   #### 4. Entity Relationship Diagram
   
