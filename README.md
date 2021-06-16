@@ -70,10 +70,10 @@ Model dan Controller dari framework yang digunakan sudah menggunakan standar kel
 
 <img src="https://github.com/fathanfatazka/project-psbo/blob/master/report-assets/encapsulation.jpeg">
 
-
-## E. Tipe Design Pengembangan yang Digunakan
+<!-- 
+## E. Tipe Design Pengembangan yang Digunakan -->
  
-## F. Hasil dan Pembahasan
+## E. Hasil dan Pembahasan
 [`^ Kembali Keatas ^`](#)
 
   #### 1. Use Case Diagram 
@@ -117,7 +117,7 @@ Tracking people -> fungsi ini bertujuan jika telah dimulainya perkuliahan tatap 
   Kemampuan DELETE atau menghapus dimiliki oleh admin. Admin dapat melakukan DELETE akun yang terdaftar pada aplikasi IPB Tracking User. Hal ini masuk kedalam tugas admin dalam melakukan monitor terhadap pengguna.
 
 
-## G. Hasil Implementasi
+## F. Hasil Implementasi
 [`^ Kembali Keatas ^`](#)
   * <b>Screenshot Sistem</b>
 
@@ -144,7 +144,7 @@ Tracking people -> fungsi ini bertujuan jika telah dimulainya perkuliahan tatap 
 
   * <b>Link Aplikasi</b>
     
-## H. Saran untuk Pengembangan Selanjutnya
+## G. Saran untuk Pengembangan Selanjutnya
 [`^ Kembali Keatas ^`](#)
 
 Berikut beberapa saran untuk proyek pengembangan selanjutnya:
@@ -154,7 +154,7 @@ Berikut beberapa saran untuk proyek pengembangan selanjutnya:
 4. Aplikasi dapat dikembangkan menjadi lebih baik karena fungsinya yang cukup penting bagi kehidupan kampus
 
 
-## I. Job Description Role
+## H. Job Description Role
 [`^ Kembali Keatas ^`](#)
 <table>
     <tr>
