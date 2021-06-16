@@ -105,13 +105,16 @@ Tracking people -> fungsi ini bertujuan jika telah dimulainya perkuliahan tatap 
 
   #### 7. Fungsi CRUD
   
-  #### a. Create :
+  #### a. Create : 
+  Sebelum menggunakan IPB Tracking User, pengguna diharuskan memiliki akun untuk dapat masuk kedalam aplikasi. Pada kasus kali ini, fungsi CREATE digunakan untuk membuat akun pengguna. Pengguna dapat terdiri dari mahasiswa, dosen, atau civitas akademika IPB.
   
-  #### b. Read :
+  #### b. Read : 
+  Pengguna yang sudah memiliki akun dapat melihat kondisi peta kampus IPB pada aplikasi. Selain itu pengguna juga dapat melihat dan mengecek data profil yang mereka daftarkan pada halaman profile. Hal ini menerapkan fungsi READ pada aplikasi yang dikembangkan.
   
   #### c. Update :
-  
+  Fungsi UPDATE juga diterapkan pada halaman profile aplikasi. Selain dapat mengecek data yang mereka daftarkan, pengguna juga dapat melakukan perubahan data diri pada halaman profile apabila ada pembaharuan yang ingin mereka lakukan. Pada kasus kali ini, fungsi UPDATE data diterapkan pada aplikasi.
   #### d. Delete :
+  Kemampuan DELETE atau menghapus dimiliki oleh admin. Admin dapat melakukan DELETE akun yang terdaftar pada aplikasi IPB Tracking User. Hal ini masuk kedalam tugas admin dalam melakukan monitor terhadap pengguna.
 
 
 ## G. Hasil Implementasi
