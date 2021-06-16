@@ -97,7 +97,7 @@ Model dan Controller dari framework yang digunakan sudah menggunakan standar kel
   
   #### 5. Arsitektur Sistem  
   
-  
+  ![psbo kuy](https://user-images.githubusercontent.com/74283988/122190683-3eefab80-cebc-11eb-8513-7e8a889634d0.png)
   
   #### 6. Fungsi Utama yang Dikembangkan 
 Fungsi utama:
